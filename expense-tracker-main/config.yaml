@@ -1,0 +1,29 @@
+# authendication credintials
+credentials:
+  usernames:
+    kalim:
+      email: tonni04@gmail.com
+      name: Sanjida islam
+      password: $2b$12$Vya.5Gw0ur0pDxsjt22/suzsNMS/xXYti30GXZZFQ62nUWwmcLJFm # Placeholder for hashed password of 'abc'
+
+cookie:
+  expiry_days: 1
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+preauthorized:
+  emails:
+  - tonni04@gmail.com
+
+
+
+db:
+  host: "localhost"
+  user: "root"
+  passwd: "12345678"
+  database: "ExpenseDB"
+  auth_plugin: "mysql_native_password"
+
+  
+email_sender:
+  email: "tonni04@gmail.com"
+  pass: '01234567'
